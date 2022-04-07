@@ -1,13 +1,17 @@
 #include <stdio.h>
+
+
+
 /**
  *
- *  *main - prints the phrase "Programming is like building a multilingual puzzle
+ * main - Entry point
  *
- *   *
+ *  
  *
- *    *Return: always 0 (Success)
+ * Return: always 0 (Success)
  *
  *     */
+
 int main(void)
 
 {
