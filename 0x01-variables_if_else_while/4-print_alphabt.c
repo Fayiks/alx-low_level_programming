@@ -6,14 +6,13 @@
  */
 int main(void)
 {
-	int d = 97;
+	int d;
 
-	while (d <= 122)
+	while (d = 97; d < 123; d++)
 	{
 		if (d != 101 && d != 113)
 		{
 			putchar(d);
-			d++;
 		}
 	}
 	putchar('\n');
