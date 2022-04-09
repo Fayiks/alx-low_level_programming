@@ -6,16 +6,17 @@
  */
 int main(void)
 {
-	int p = 97;
-	int d = 65;
+	int p;
+	int d;
 
-	while (p <= 122 && d <= 90)
+	for (p = 97; p <= 122; p++)
 	{
 		putchar(p);
-		putchar(d);
-		p++;
-		d++;
 	}
-	putchar("\n");
+	for (d = 65; d <= 90; d++)
+	{
+		putchar(d);
+	}
+	putchar('\n');
 	return (0);
 }
