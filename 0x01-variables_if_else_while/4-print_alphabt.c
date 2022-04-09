@@ -8,10 +8,13 @@ int main(void)
 {
 	int d = 97;
 
-	while (d != 113 && d != 103)
+	while (d <= 122)
 	{
-		putchar(d);
-		d++;
+		if (d != 101 && d != 113)
+		{
+			putchar(d);
+			d++;
+		}
 	}
 	putchar('\n');
 	return (0);
