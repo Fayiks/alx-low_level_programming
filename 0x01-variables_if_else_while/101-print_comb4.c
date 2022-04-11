@@ -8,11 +8,13 @@ int main(void)
 {
 	int i, e, g;
 
-	for (i = 48; i < 58; i++)
+	while (e < 58)
 	{
-		for (e = 48; e < 58; e++)
+		i = 48;
+		while (e < 58)
 		{
-			for (g = 48; g < 58; g++)
+			g = 48:
+			while (g < 58)
 			{
 				if (e != i && e != g && i != g && e < i && i < g)
 				{
@@ -26,8 +28,11 @@ int main(void)
 					putchar(',');
 					putchar(' ');
 				}
+				g++
 			}
+			i++;
 		}
+		e++;
 	}
 	putchar('\n');
 	return (0);
